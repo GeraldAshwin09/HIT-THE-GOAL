@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Hit The Goal</title>
+        <script src="fabric.js"></script>
+    </head>
+    <body id="bg" onload="ball_img(), post_img()">
+        <center>
+        <h1>Hit The Goal</h1>
+        <canvas id="mycanvas" height="800" width="1000"></canvas>
+        <br><br>
+        <h2 id="king"></h2>
+        <h4>Use Arrow Keys to Move The Ball</h4>
+        </center>
+
+  <style>
+      #bg
+      {
+          background-image: url("pitch.jpg");
+          color:wheat;
+
+      }
+      #mycanvas
+        {
+            margin-top: 30px;
+            border-width: 10px;
+            border-style: ridge;
+        background-color: green;
+        margin-bottom: 10px;
+        }
+
+        h1{
+            font-size: 100px;
+        }
+  </style>
+  <script src="main.js"></script>
+    </body>
+</html>
